@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.margin-100 {
+  margin: 0 100px;
+}
+
+header .header-trademarks-container {
+  background-color: #0282f9;
+  color: #ffffff;
+}
+header .header-trademarks-container .header-trademarks-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25px;
+}
+header .header-trademarks-container .header-trademarks-box div {
+  padding-left: 50px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+header .header-trademarks-container .header-trademarks-box div span {
+  font-size: 0.7rem;
+}
+header .navbar-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar-box img {
+  height: 120px;
+  padding: 20px;
+}
+header .navbar-box ul {
+  display: flex;
+}
+header .navbar-box ul li {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #464646;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+header .jumbo-section {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+}
+
+.footer-container {
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-container .footer-box {
+  display: flex;
+}
+.footer-container .footer-box .footer-lists {
+  height: 400px;
+  width: 50%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.footer-container .footer-box .footer-lists div {
+  width: 33.3333333333%;
+  padding-top: 10px;
+}
+.footer-container .footer-box .footer-lists div h2 {
+  padding: 5px 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-container .footer-box .footer-lists div li {
+  font-size: 0.8rem;
+  color: #959595;
+  padding: 5px 0;
+}
+.footer-container .footer-box .footer-lists span {
+  position: absolute;
+  bottom: 0px;
+  font-size: 0.7rem;
+  color: #959595;
+  padding-top: 20px;
+}
+.footer-container .footer-box .footer-lists span a {
+  color: #0282f9;
+}
+.footer-container .footer-box .footer-lists #last-list {
+  margin-bottom: -20px;
+}
+.footer-container .footer-box .footer-logo {
+  height: 450px;
+  width: 50%;
+  padding: 30px 0;
+  background-image: url("/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: -50px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+.footer-bottom .footer-bottom-box {
+  height: 100px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom .footer-bottom-box button {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.footer-bottom .footer-bottom-box .footer-bottom-social {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .footer-bottom-box .footer-bottom-social h2 {
+  color: #0282f9;
+  padding-right: 10px;
+}
+.footer-bottom .footer-bottom-box .footer-bottom-social a {
+  padding: 0px 5px;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+main .comics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  padding: 50px 0;
+  position: relative;
+}
+main .comics-container h1 {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  font-size: 1.2rem;
+}
+main .comics-container button {
+  color: #ffffff;
+  background-color: #0282f9;
+  border: none;
+  padding: 10px 40px;
+}
+main .comics-container .comics-box {
+  flex-basis: 16.6666666667%;
+  height: 400px;
+  /* img{     SE VOGLIO LE IMMAGINI TAGLIATE COME DA ESERCIZIO. A ME PIACE CON L'IMMAGINE INTERA.
+      height: 230px;
+      object-fit: cover;
+      object-position: top;
+  } */
+}
+main .comics-container .comics-box img,
+main .comics-container .comics-box h2 {
+  padding: 10px;
+}
+main .comics-container .comics-box h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+main section {
+  background-color: #0282f9;
+}
+main section .merch-container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .merch-container a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 20px;
+}
+main section .merch-container a img {
+  height: 50px;
+}
+main section .merch-container a span {
+  font-size: 0.9rem;
+  margin: 0 10px;
+}

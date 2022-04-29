@@ -1,0 +1,66 @@
+main{
+    background-color: $darkest-gray;
+    .comics-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+        font-weight: 500;
+        padding: 50px 0;
+        position: relative;
+        h1{
+            background-color: $blue-dc;
+            color: white;
+            padding: 10px 20px;
+            position: absolute;
+            top: -20px;
+            left: 0;
+            font-size: 1.2rem;
+        }
+        button{
+            color: $white;
+            background-color: $blue-dc;
+            border: none;
+            padding: 10px 40px;
+        }
+        .comics-box{
+            flex-basis: calc(100% / 6);
+            height: 400px;
+            img,
+            h2{
+                padding: 10px;
+            }
+            /* img{     SE VOGLIO LE IMMAGINI TAGLIATE COME DA ESERCIZIO. A ME PIACE CON L'IMMAGINE INTERA.
+                height: 230px;
+                object-fit: cover;
+                object-position: top;
+            } */
+            h2{
+                font-size: 0.8rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+    section{
+        background-color: $blue-dc;
+        .merch-container{
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a{
+                display: flex;
+                align-items: center;
+                color: $white;
+                padding: 20px;
+                img{
+                    height: 50px;
+                };
+                span{
+                    font-size: 0.9rem;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}

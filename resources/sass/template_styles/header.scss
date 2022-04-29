@@ -1,0 +1,44 @@
+header{
+    .header-trademarks-container{
+        background-color: $blue-dc;
+        color: $white;
+        .header-trademarks-box{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 25px;
+            div{
+                padding-left: 50px;
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                span{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+    .navbar-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            height: 120px;
+            padding: 20px;
+        }
+        ul{
+            display: flex;
+            li{
+                text-transform: uppercase;
+                font-weight: bolder;
+                color: $dark-gray;
+                padding: 0 10px;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .jumbo-section{
+        background-image: url('/images/jumbotron.jpg');
+        height: 400px;
+    }
+}
+
