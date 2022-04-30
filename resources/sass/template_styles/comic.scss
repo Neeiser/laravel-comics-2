@@ -1,4 +1,4 @@
-main{
+.main-single-comic{
     background-color: $white;
     .blue-banner{
         background-color: $blue-dc;
@@ -7,7 +7,6 @@ main{
         .comic-thumb{
             position: absolute;
             top: -250px;
-            left: 250px;
             border: 1px solid $white;
             span{
                 position: absolute;
@@ -31,7 +30,68 @@ main{
             }
         }
     }
-    .comic-desc{
+    .comic-box{
         height: 500px;
+        display: flex;
+        .comic-desc{
+            padding: 50px 0;
+            width: 70%;
+            h2{
+                text-transform: uppercase;
+                color: $dark-blue-dc;
+                transform: scale(1, 1.3); /* streching verticale */
+            }
+            .comic-box-stock{
+                height: 50px;
+                margin: 20px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: $green-stock;
+                border-bottom: 1px solid black;
+                .comic-box-price{
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 20px;
+                    width: 75%;
+                    border-right: 1px solid black;
+                    span{
+                        color: $green-stock-font;
+                        var{
+                            color: $white;
+                            font-style: normal;
+                        }
+                    }
+                }
+                .comic-box-availability{
+                    height: 50px;
+                    width: 25%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $white;
+                }
+            }
+            p{
+                line-height: 30px;
+                font-size: 0.9rem;
+            }
+        }
+        .comic-adv{
+            width: 30%;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            h3{
+                text-align: right;
+                font-size: 0.8rem;
+            }
+            img{
+                
+            }
+        }
     }
 }

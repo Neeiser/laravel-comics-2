@@ -21,6 +21,10 @@ a {
   margin: 0 100px;
 }
 
+.margin-250 {
+  margin: 0 250px;
+}
+
 header .header-trademarks-container {
   background-color: #0282f9;
   color: #ffffff;
@@ -214,21 +218,20 @@ main section .merch-container a span {
   margin: 0 10px;
 }
 
-main {
+.main-single-comic {
   background-color: #ffffff;
 }
-main .blue-banner {
+.main-single-comic .blue-banner {
   background-color: #0282f9;
   height: 70px;
   position: relative;
 }
-main .blue-banner .comic-thumb {
+.main-single-comic .blue-banner .comic-thumb {
   position: absolute;
   top: -250px;
-  left: 250px;
   border: 1px solid #ffffff;
 }
-main .blue-banner .comic-thumb span {
+.main-single-comic .blue-banner .comic-thumb span {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -237,7 +240,7 @@ main .blue-banner .comic-thumb span {
   background-color: #0282f9;
   padding: 5px;
 }
-main .blue-banner .comic-thumb a {
+.main-single-comic .blue-banner .comic-thumb a {
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -248,6 +251,65 @@ main .blue-banner .comic-thumb a {
   text-align: center;
   width: 192px;
 }
-main .comic-desc {
+.main-single-comic .comic-box {
   height: 500px;
+  display: flex;
+}
+.main-single-comic .comic-box .comic-desc {
+  padding: 50px 0;
+  width: 70%;
+}
+.main-single-comic .comic-box .comic-desc h2 {
+  text-transform: uppercase;
+  color: #003f5e;
+  transform: scale(1, 1.3);
+  /* streching verticale */
+}
+.main-single-comic .comic-box .comic-desc .comic-box-stock {
+  height: 50px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55ba59;
+  border-bottom: 1px solid black;
+}
+.main-single-comic .comic-box .comic-desc .comic-box-stock .comic-box-price {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 75%;
+  border-right: 1px solid black;
+}
+.main-single-comic .comic-box .comic-desc .comic-box-stock .comic-box-price span {
+  color: #b0fd9c;
+}
+.main-single-comic .comic-box .comic-desc .comic-box-stock .comic-box-price span var {
+  color: #ffffff;
+  font-style: normal;
+}
+.main-single-comic .comic-box .comic-desc .comic-box-stock .comic-box-availability {
+  height: 50px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.main-single-comic .comic-box .comic-desc p {
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+.main-single-comic .comic-box .comic-adv {
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.main-single-comic .comic-box .comic-adv h3 {
+  text-align: right;
+  font-size: 0.8rem;
 }
