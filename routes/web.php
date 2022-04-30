@@ -24,3 +24,13 @@ Route::get('/comics', function () {
     ];
     return view('comics', $data);
 });
+
+Route::get('/comics/{id}', function ($id) {
+
+    $arrComics = config('comics');
+    
+    $selectedComic = collect($arrComics)->firstWhere('id', $id);
+
+    return view('comic', $selectedComic);
+
+});

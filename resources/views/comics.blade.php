@@ -8,8 +8,10 @@
             <h1>CURRENT SERIES</h1>
             @foreach ($comics as $comic)
                 <div class="comics-box">
-                    <img src="{{ $comic['thumb'] }}" alt="">
-                    <h2>{{ $comic['series'] }}</h2>
+                    <a href="/comics/{{ $comic['id'] }}">
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                        <h2>{{ $comic['series'] }}</h2>
+                    </a>
                 </div>
             @endforeach
             <button>LOAD MORE</button>
