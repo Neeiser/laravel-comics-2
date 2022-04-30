@@ -213,3 +213,41 @@ main section .merch-container a span {
   font-size: 0.9rem;
   margin: 0 10px;
 }
+
+main {
+  background-color: #ffffff;
+}
+main .blue-banner {
+  background-color: #0282f9;
+  height: 70px;
+  position: relative;
+}
+main .blue-banner .comic-thumb {
+  position: absolute;
+  top: -250px;
+  left: 250px;
+  border: 1px solid #ffffff;
+}
+main .blue-banner .comic-thumb span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  background-color: #0282f9;
+  padding: 5px;
+}
+main .blue-banner .comic-thumb a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  background-color: #0282f9;
+  padding: 2px;
+  text-align: center;
+  width: 192px;
+}
+main .comic-desc {
+  height: 500px;
+}

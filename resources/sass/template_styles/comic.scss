@@ -1,0 +1,37 @@
+main{
+    background-color: $white;
+    .blue-banner{
+        background-color: $blue-dc;
+        height: 70px;
+        position: relative;
+        .comic-thumb{
+            position: absolute;
+            top: -250px;
+            left: 250px;
+            border: 1px solid $white;
+            span{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                color: $white;
+                font-size: 0.8rem;
+                background-color: $blue-dc;
+                padding: 5px;
+            }
+            a{
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                color: #ffffff;
+                font-size: 0.8rem;
+                background-color: #0282f9;
+                padding: 2px;
+                text-align: center;
+                width: 192px;
+            }
+        }
+    }
+    .comic-desc{
+        height: 500px;
+    }
+}

@@ -9,7 +9,7 @@
 
     <div class="navbar-container">
         <div class="margin-100 navbar-box">
-            <img src="./images/dc-logo.png" alt="">
+            <img src="{{asset('images/dc-logo.png')}}">
             <nav>
                 <ul>
                     <li><a href="/">characters</a></li>
