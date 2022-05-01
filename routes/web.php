@@ -26,10 +26,8 @@ Route::get('/comics', function () {
 });
 
 Route::get('/comics/{id}', function ($id) {
-
-    $arrComics = config('comics');
     
-    $selectedComic = collect($arrComics)->firstWhere('id', $id);
+    $selectedComic = collect(config('comics'))->firstWhere('id', $id);
 
     return view('comic', $selectedComic);
 

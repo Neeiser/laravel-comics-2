@@ -252,7 +252,6 @@ main section .merch-container a span {
   width: 192px;
 }
 .main-single-comic .comic-box {
-  height: 500px;
   display: flex;
 }
 .main-single-comic .comic-box .comic-desc {
@@ -298,6 +297,9 @@ main section .merch-container a span {
   align-items: center;
   color: #ffffff;
 }
+.main-single-comic .comic-box .comic-desc .comic-box-stock .comic-box-availability a {
+  color: #ffffff;
+}
 .main-single-comic .comic-box .comic-desc p {
   line-height: 30px;
   font-size: 0.9rem;
@@ -311,5 +313,45 @@ main section .merch-container a span {
 }
 .main-single-comic .comic-box .comic-adv h3 {
   text-align: right;
+  font-size: 0.8rem;
+}
+.main-single-comic .comic-box-bottom {
+  display: flex;
+}
+.main-single-comic .comic-box-bottom .comic-talent {
+  width: 50%;
+  color: #003f5e;
+}
+.main-single-comic .comic-box-bottom .comic-talent .comic-talent-artists, .main-single-comic .comic-box-bottom .comic-talent .comic-talent-writers {
+  display: flex;
+  padding: 30px 0px;
+}
+.main-single-comic .comic-box-bottom .comic-talent .comic-talent-artists h3, .main-single-comic .comic-box-bottom .comic-talent .comic-talent-writers h3 {
+  font-size: 0.9rem;
+  width: 20%;
+}
+.main-single-comic .comic-box-bottom .comic-talent .comic-talent-artists a, .main-single-comic .comic-box-bottom .comic-talent .comic-talent-writers a {
+  font-size: 0.8rem;
+  color: #0282f9;
+  margin: 0px 50px;
+}
+.main-single-comic .comic-box-bottom .comic-specs {
+  width: 50%;
+  color: #003f5e;
+}
+.main-single-comic .comic-box-bottom .comic-specs div {
+  display: flex;
+  align-items: baseline;
+  padding: 20px 0px;
+}
+.main-single-comic .comic-box-bottom .comic-specs div h3 {
+  font-size: 0.9rem;
+  width: 20%;
+}
+.main-single-comic .comic-box-bottom .comic-specs div a {
+  color: #0282f9;
+  font-size: 0.8rem;
+}
+.main-single-comic .comic-box-bottom .comic-specs div span {
   font-size: 0.8rem;
 }

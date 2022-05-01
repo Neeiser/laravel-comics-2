@@ -31,7 +31,6 @@
         }
     }
     .comic-box{
-        height: 500px;
         display: flex;
         .comic-desc{
             padding: 50px 0;
@@ -72,6 +71,9 @@
                     justify-content: center;
                     align-items: center;
                     color: $white;
+                    a{
+                        color: $white;
+                    }
                 }
             }
             p{
@@ -89,8 +91,45 @@
                 text-align: right;
                 font-size: 0.8rem;
             }
-            img{
-                
+        }
+    }
+    .comic-box-bottom{
+        display: flex;
+        .comic-talent{
+            width: 50%;
+            color: $dark-blue-dc;
+            .comic-talent-artists, .comic-talent-writers{
+                display: flex;
+                padding: 30px 0px;
+                h3{
+                    font-size: 0.9rem;
+                    width: 20%;
+                }
+                a{
+                    font-size: 0.8rem;
+                    color: $blue-dc;
+                    margin: 0px 50px;
+                }
+            }
+        }
+        .comic-specs{
+            width: 50%;
+            color: $dark-blue-dc;
+            div{
+                display: flex;
+                align-items: baseline;
+                padding: 20px 0px;
+                h3{
+                    font-size: 0.9rem;
+                    width: 20%;
+                }
+                a{
+                    color: $blue-dc;
+                    font-size: 0.8rem;
+                }
+                span{
+                    font-size: 0.8rem;
+                }
             }
         }
     }
